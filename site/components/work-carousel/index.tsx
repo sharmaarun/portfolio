@@ -144,6 +144,7 @@ export function WorkCarousel({ children, items = dummyItems, ...props }: WorkCar
                 />
                 {items?.map((item, index) => {
                     return <Stack
+                        key={index}
                         ref={activeIndex === index ? activeRef : null}
                         className={`item ${activeIndex === index ? Styles.active : ""}`}
                         pos="absolute"

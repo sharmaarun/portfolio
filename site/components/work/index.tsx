@@ -24,7 +24,7 @@ const dummyItems: CarouselItem[] = [
 
                 </HStack>
                 <Text color="white">
-                    Drag n' Drop Email Template Builder
+                    Drag n Drop Email Template Builder
                 </Text>
                 <Link href="https://www.sendlix.com" isExternal>
                     <Text color="whiteAlpha.800" fontWeight="thin">
@@ -57,6 +57,7 @@ const dummyItems: CarouselItem[] = [
         title:
             <Stack
                 alignItems="center"
+                textAlign="center"
             >
                 <HStack
                     justifyContent="center"
@@ -80,13 +81,13 @@ const dummyItems: CarouselItem[] = [
             </Stack>
         ,
         description: <Text color="whiteAlpha.800" fontWeight="thin">
-            Flytcheap.com is an online flight searching and booking engine that helps users find affordable flights to their desired destinations. The platform offers a user-friendly interface that allows users to input their travel details, including departure and arrival airports, travel dates, and number of passengers. The website then searches through various airlines and travel agencies to find the cheapest available flights that match the user's criteria.
+            Flytcheap.com is an online flight searching and booking engine that helps users find affordable flights to their desired destinations. The platform offers a user-friendly interface that allows users to input their travel details, including departure and arrival airports, travel dates, and number of passengers. The website then searches through various airlines and travel agencies to find the cheapest available flights that match the user&apos;s criteria.
             <br />
             <br />
             Flytcheap.com also provides users with information on flight times, layovers, and airline reviews to help them make informed decisions when booking their flights. In addition, the platform offers a range of filters and sorting options to help users customize their search results and find the best flight deals.
             <br />
             <br />
-            Once users have selected their preferred flight, Flytcheap.com redirects them to the respective airline or travel agency's website to complete their booking. The platform also offers a range of payment options, including credit cards and PayPal, to make the booking process as convenient as possible. Overall, Flytcheap.com is a reliable and user-friendly platform that offers affordable flight options to budget-conscious travelers.
+            Once users have selected their preferred flight, Flytcheap.com redirects them to the respective airline or travel agency&apos;s website to complete their booking. The platform also offers a range of payment options, including credit cards and PayPal, to make the booking process as convenient as possible. Overall, Flytcheap.com is a reliable and user-friendly platform that offers affordable flight options to budget-conscious travelers.
         </Text>,
         image: "/flight-cheap-bg.png",
     },
@@ -94,6 +95,7 @@ const dummyItems: CarouselItem[] = [
         title:
             <Stack
                 alignItems="center"
+                textAlign="center"
             >
                 <HStack
                     justifyContent="center"
@@ -105,7 +107,7 @@ const dummyItems: CarouselItem[] = [
                         CRM
                     </Heading>
                 </HStack>
-                <Text color="white">
+                <Text color="white" >
                     Customer Relationship Management Platform
                 </Text>
                 <Link href="https://rx-crm.exclamationx.com/admin" isExternal>
@@ -135,6 +137,7 @@ const dummyItems: CarouselItem[] = [
         title:
             <Stack
                 alignItems="center"
+                textAlign="center"
             >
                 <HStack
                     justifyContent="center"
@@ -177,6 +180,7 @@ const dummyItems: CarouselItem[] = [
         title:
             <Stack
                 alignItems="center"
+                textAlign="center"
             >
                 <HStack
                     justifyContent="center"

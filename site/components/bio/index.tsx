@@ -1,7 +1,7 @@
 import { Heading, Stack, StackProps, Text } from "@chakra-ui/react"
-import { BioCarousel } from "../bio-carousel"
+import { BioCarousel, CarouselItem } from "../bio-carousel"
 import { BorderFrame } from "../border-frame"
-import { CarouselItem } from "../work-carousel"
+
 
 export interface BioSectionProps extends StackProps {
     children?: any
@@ -17,7 +17,7 @@ const dummyItems: CarouselItem[] = [
                 WORKATIONS
             </Heading>
         </>,
-        description: <Text p={12} py={[12,12,24]}  align="justify" color="black" fontSize="xl" fontWeight="thin">
+        description: <Text p={12} py={[12, 12, 24]} align="justify" color="black" fontSize="xl" fontWeight="thin">
             With a background in design, I work closely with design focused teams to build websites and microsites for companies and individuals. I have years of experience working and collaborating on product teams and leading engineering efforts.
             <br />
             <br />

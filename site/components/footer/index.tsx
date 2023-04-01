@@ -63,9 +63,16 @@ export function Footer({ children, posts, ...props }: FooterProps) {
                         </HStack>
                     </Stack>
                     <Stack>
-                        <Text color="gray.400" fontSize="xs">
-                            © 2021 Sharmafolio. All rights reserved.
-                        </Text>
+                        <HStack>
+                            
+                            <Text color="gray.400" fontSize="xs">
+                                © 2023 Spirex.co | All rights reserved.
+                            </Text>
+                            <Link href="https://www.trustpilot.com/review/spirex.co" target="_blank" rel="noopener">
+                                <Image src="/tp.svg" />
+                            </Link>
+
+                        </HStack>
                     </Stack>
                 </Stack>
                 <Stack
