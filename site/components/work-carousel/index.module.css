@@ -1,0 +1,36 @@
+.item {
+    display: none;
+    animation: inActiveAnim 0.2s;
+    opacity: 0;
+}
+
+.active {
+    display: flex;
+    animation: activeAnim 0.2s;
+    opacity: 1;
+}
+
+@keyframes activeAnim {
+    0%{
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes inActiveAnim {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    99%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1) translateY(100%);
+        opacity: 0;
+    }
+}

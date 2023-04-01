@@ -1,0 +1,87 @@
+.wrapper {}
+
+.wrapper h1{
+    padding:10px 0px;
+}
+.wrapper h2{
+    padding:8px 0px;
+}
+.wrapper h3{
+    padding:4px 0px;
+}
+.wrapper h4{
+    padding:4px 0px;
+}
+.wrapper h5{
+    padding:4px 0px;
+}
+.wrapper h6{
+    padding:4px 0px;
+}
+.wrapper p{
+    /* padding:5px 0px; */
+}
+
+.wrapper ul {
+    padding:5px 20px;
+}
+.wrapper ol {
+    padding:5px 20px;
+}
+.wrapper pre {
+    padding:0px;
+    margin:20px 0px;
+    background-color: 2E3440;
+}
+.wrapper pre code {
+    padding:1em;
+    display: block;
+}
+.wrapper hr {
+    margin:20px 0px;
+}
+.wrapper img {
+    margin:20px 0px;
+}
+.wrapper blockquote {
+    margin:20px 0px;
+    color:lightslategray;
+    border-left: 3px solid gray;
+    padding-left:20px;
+}
+.wrapper a {
+    color:steelblue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.wrapper a:hover {
+    color:steelblue;
+    text-decoration: none;
+}
+.wrapper table {
+    width:100%;
+    margin:20px 0px;
+    border:1px solid lightgray
+}
+
+.wrapper table thead th{
+    padding:5px;
+    text-align: left;
+    border-right:1px solid darkgray;
+    border-bottom:1px solid darkgray;
+    background-color: #efefef;
+}
+.wrapper table tr:nth-child(odd){
+    background: #f5f5f5;
+}
+.wrapper table tr:nth-child(even){
+    background: #f1f1f1;
+}
+.wrapper table tr:hover{
+    background: #fefefe;
+}
+.wrapper table td{
+    padding:5px;
+    border-right:1px solid darkgray;
+    border-bottom:1px solid darkgray;
+}
